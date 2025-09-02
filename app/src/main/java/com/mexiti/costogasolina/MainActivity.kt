@@ -64,7 +64,8 @@ fun CostGasLayout( ) {
     val precioLitro = precioLitroEntrada.toDoubleOrNull() ?: 0.0
     val cantidadLitros = cantLitrosEntrada.toDoubleOrNull() ?: 0.0
     val propina = if (incluirPropina) propinaEntrada.toDoubleOrNull() ?: 0.0 else 0.0
-    //Comentario
+    //Comentario 1
+    //Comentario 2
 
     val total = calcularMonto(precioLitro,cantidadLitros, propina)
 
